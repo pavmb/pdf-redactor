@@ -33,7 +33,7 @@ Get this module and then install its dependencies with:
 
 	python3 pdf_redactor.py < document.pdf > document-redacted.pdf
 
-However, you should use the `pdf_redactor` module as a library and pass in text filtering functions written in Python, since the command-line version of the tool does not yet actually do anything to the PDF. The [example.py](example.py) script shows how to redact Social Security Numbers:
+However, you should use the `pdf_redactor` module as a library and pass in text filtering functions written in Python, since the command-line version of the tool does not yet actually do anything to the PDF. The [example.py](TIPS_D5_remover.py) script shows how to redact Social Security Numbers:
 
 	python3 example.py < tests/test-ssns.pdf > document-redacted.pdf
 
